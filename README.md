@@ -1,7 +1,7 @@
 # graphslam-kit-velodyne
 GraphSLAM implementation in Python for the KIT-Velodyne Dataset
 
-(map_trajectory.png)
+![](map_trajectory.png)
 
 Using the [KIT-Velodyne Dataset](https://www.mrt.kit.edu/z/publ/download/velodyneslam/dataset.html) i.e. LiDAR (point clouds) and Inertial (INS) sensor data mounted on a car, the goal is to obtain a consistent graph where nodes are the poses (position of the car in the world) at different time steps, as well as retrieve a map of the environment. This instance of Simultaneous Localization and Mapping (SLAM) is done offline (as opposed to online in real time).
 
