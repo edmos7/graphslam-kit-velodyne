@@ -16,6 +16,7 @@ Files:
 - point_cloud_stream.mp4: an MP4 video file (produced in the notebook) of the car's trajectory and registered point clouds mapping the environment, for an intuitive visualization.
 - optimized_poses.pkl: a Pickle file of the optimized poses that you can load in the notebook, instea of re-running the entire optimization step.
 
+Full disclosure: the loop closure part (which is essential for GraphSLAM) is currently missing, and the plane fitting for ground removal is not satisfactory, I hope to integate these asap.
 
 @inproceedings{Moosmann2011IV,
         Address = {Baden-Baden, Germany},
